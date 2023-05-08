@@ -91,3 +91,9 @@ The purpose of this analysis is to build and evaluate machine learning models to
 - Recall:
     - High Risk: 92%
     - Low Risk: 94%
+
+## Summary
+
+After evaluating the six different machine learning models on the credit risk dataset, we can see that all models had high accuracy scores, but they differed in terms of precision, recall, and f1-scores.
+
+After analyzing the results, we found that the easy ensemble classifier and the balanced random forest classifier outperformed the other models in terms of balanced accuracy. Both models achieved a balanced accuracy score of 0.93, meaning they correctly classified over 93% of the instances in the dataset. Therefore, it is recommended to use the easy ensemble classifier since it shows the highest recall score, meaning it can identify the highest percentage of high-risk loans. 
