@@ -6,36 +6,60 @@ The purpose of this analysis is to build and evaluate machine learning models to
 
 ### Random Oversampling
 
-- Balanced Accuracy Score: 65.14%
-- Precision Score: 99.00%
-- Recall Score: 61.00%
+- Balanced Accuracy Score: 66%
+- Precision:
+    - High Risk: 1%
+    - Low Risk: 100%
+- Recall:
+    - High Risk: 66%
+    - Low Risk: 66%
 
 ### SMOTE Oversampling
 
-- Balanced Accuracy Score: 66.36%
-- Precision Score: 99.00%
-- Recall Score: 69.00%
+- Balanced Accuracy Score: 66%
+- Precision:
+    - High Risk: 1%
+    - Low Risk: 100%
+- Recall:
+    - High Risk: 66%
+    - Low Risk: 66%
 
 ### ClusterCentroids
 
-- Balanced Accuracy Score: 54.42%
-- Precision Score: 99.00%
-- Recall Score: 40.00%
+- Balanced Accuracy Score: 55%
+- Precision:
+    - High Risk: 1%
+    - Low Risk: 100%
+- Recall:
+    - High Risk: 69%
+    - Low Risk: 40%
 
 ### SMOTEENN
 
-- Balanced Accuracy Score: 66.35%
-- Precision Score: 99.00%
-- Recall Score: 57.00%
+- Balanced Accuracy Score: 64%
+- Precision:
+    - High Risk: 1%
+    - Low Risk: 100%
+- Recall:
+    - High Risk: 70%
+    - Low Risk: 58%
 
 ### BalancedRandomForest Classifier
 
-- Balanced Accuracy Score: 78.85%
-- Precision Score: 99.00%
-- Recall Score: 87.00%
+- Balanced Accuracy Score: 78%
+- Precision:
+    - High Risk: 3%
+    - Low Risk: 100%
+- Recall:
+    - High Risk: 70%  
+    - Low Risk: 87%
 
 ### EasyEnsemble Classifier
 
-- Balanced Accuracy Score: 93.17%
-- Precision Score: 99.00%
-- Recall Score: 94.00%
+- Balanced Accuracy Score: 93%
+- Precision:
+   - High Risk: 9%
+   - Low Risk: 100%
+- Recall:
+    - High Risk: 92%
+    - Low Risk: 94%
